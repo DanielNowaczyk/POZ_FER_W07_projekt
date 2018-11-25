@@ -7,6 +7,6 @@ export default class App extends React.Component{
         return <div className={styles.app}>
 
             <img src={imageSrc} alt="Alt"/>
-            App.jsx działa</div>
+            Wszystko śmiga brum brum</div>
     }
 }
