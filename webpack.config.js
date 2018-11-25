@@ -6,6 +6,9 @@ module.exports={
         filename:"app.js",
         path:__dirname+"/docs"
     },
+    resolve:{
+        extensions:[".js",".jsx"]
+    },
     module:{
         rules:[
             {
@@ -14,8 +17,31 @@ module.exports={
             exclude:/node_modules/,
             options:{
                 presets:["@babel/preset-react"]
+                }
+            },
+            {
+                test:/.scss$/,
+                use:[
+                    {loader:"style-loader"},
+                    {
+                    loader:"css-loader",
+                    options:{
+                        modules:true,
+                        localIdentName: '[name]__[local]--[hash:base64:5]'
+                        }
+                    },
+                    {loader:"sass-loader"}
+                ]
+            },
+            {
+                test:/\.(png|jpg|gif)$/i,
+                use:[
+                    {
+                        loader:"url-loader"
+                    }
+                ]
+
             }
-        }
     ]
 
     }
