@@ -1,0 +1,32 @@
+.membersList{
+  margin-top:15rem;
+  position: relative;
+  opacity: 0.90;
+  display: flex;
+  justify-content:center;
+
+  table{
+    thead{
+      font-weight:800;
+      background-color:#8a2c02;
+    }
+    color:#07000e;
+    width:52rem;
+    max-height:500px ;
+    tbody{
+      tr:nth-child(odd){
+      background-color:#eecc8d;
+      }
+      tr:nth-child(even){
+        background-color:#f08b33;
+      }
+    }
+
+      td{
+        border:1px solid black;
+        text-align: center;
+      }
+
+
+  }
+}

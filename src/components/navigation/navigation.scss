@@ -1,0 +1,163 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://fonts.googleapis.com/css?family=Lora&amp;subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Pirata+One&amp;subset=latin-ext);
+.navigation {
+  font-family: 'Roboto', Arial, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: transparent;
+  display: flex;
+  padding: 0;
+  margin: 0 1px 0 0;
+  letter-spacing: 2px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+  height: 5em;
+  position: sticky;
+}
+
+.navigation *,
+.navigation *:before {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navigation li {
+  display: flex;
+  list-style: outside none none;
+  margin: 0;
+  position: relative;
+  float: left;
+}
+
+.navigation > li {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #b3b3b3;
+}
+
+.navigation > li:first-of-type {
+  border-left: none;
+}
+
+.navigation > li:last-of-type {
+  border-right: none;
+}
+
+.navigation a {
+  color: white;
+  display: block;
+  padding: 1.1em 2em 1.3em;
+  position: relative;
+  text-decoration: none;
+}
+.navigation > li:before,
+.navigation > li:after {
+  position: absolute;
+  content: '';
+}
+
+.navigation > li:before {
+  background-color: #962d22;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  top: 0;
+  opacity: 0;
+}
+
+//.navigation > li:after {
+//  position: absolute;
+//  bottom: 0;
+//  left: -1px;
+//  right: -1px;
+//  height: 5px;
+//  background-color: #6d2018;
+//  box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.5);
+//}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin: 0;
+  padding: 5px 0;
+  white-space: nowrap;
+  font-size: 0.8em;
+  background-color: #8e2a20;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.navigation ul li {
+  display: list-item;
+  float: none;
+  position: relative;
+  border: 0;
+}
+
+.navigation ul li a {
+  padding: 0.8em 1.2em;
+  color: #ffffff;
+  text-transform: none;
+  opacity: 0.5;
+}
+
+.navigation ul li a:hover {
+  opacity: 1;
+}
+
+.navigation li:hover > ul {
+  display: inherit;
+}
+
+
+
+.navigation li > a:only-child:after {
+  content: '';
+}
+
+.navigation ul ul {
+  background-color: #962d22;
+  top: 0;
+  left: 100%;
+  list-style: none;
+  font-size: 1em;
+}
+
+.navigation > li:hover > a,
+.navigation > li.current > a {
+  color: #fff;
+}
+
+.navigation > li:hover:before,
+.navigation > li.current:before {
+  bottom: 0;
+  opacity: 1;
+}
+
+
+.nav_main{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content: flex-start;
+  background-image: url(../../assets/tło.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #000000;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+
+.logo{
+  width:200px;
+  height: 200px;
+  border-radius: 70% 70% 70% 70%;
+  background-color: transparent;
+  //box-shadow:0 0 10px 5px saddlebrown ;
+}

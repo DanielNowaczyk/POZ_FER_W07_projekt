@@ -4,7 +4,7 @@
   "description": "Projekt na CodersLab POZ_FER_W_07",
   "main": "index.js",
   "scripts": {
-    "start":"./node_modules/.bin/webpack-dev-server --mode=development --hot",
+    "start": "./node_modules/.bin/webpack-dev-server --mode=development --hot",
     "build": "./node_modules/.bin/webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,9 @@
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react-audio-player": "^0.11.0",
+    "react-router-dom": "^4.3.1"
   }
 }
