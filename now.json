@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "src/server.js", "use": "@now/node-server" },
+    { "src": "docs/index.html", "use": "@now/static" }
+  ],
+  "alias": "piraci-aaa"
+}

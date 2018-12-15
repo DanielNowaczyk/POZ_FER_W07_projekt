@@ -47,13 +47,12 @@ import playersSrc from "../../players.txt";
                  const sojusz=playersTab.filter(el => {
                      return el.allianceID === allianceID;
                  });
-                 console.log(sojusz);
+
                  const nsojusz=[...sojusz];
                  nsojusz.sort(compareNumbers);
                  function compareNumbers(a, b) {
                      return a.rank - b.rank
                  }
-                 console.log(nsojusz);
                  return nsojusz
              });
      }
