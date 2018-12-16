@@ -7,7 +7,6 @@ import {
     NavLink,
 } from 'react-router-dom';
 import styles from "./App.scss";
-import imageSrc from "../../assets/obrazek.jpg"
 import Navigation from "../navigation/navigation"
 import Members from "../members/members"
 import Form from "../form/form"

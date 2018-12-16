@@ -36,7 +36,7 @@ class Gallery extends React.Component {
         return (
             <div className={style.box}>
                 <div className={style.main}>
-                    <ImageGallery items={images} />
+                    <ImageGallery items={images} autoPlay={true} />
                 </div>
             </div>
 
