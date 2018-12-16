@@ -46,6 +46,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html{
+  background-size: cover;
+}
 
 
 .styles{
@@ -70,7 +73,7 @@ table {
   font-size: 10rem;
   position:absolute;
   top:200px;
-  left:25vw;
+  left:30%;
 }
 .nav_motto{
 
@@ -81,5 +84,5 @@ table {
 
   position: absolute;
   bottom: 10px;
-  left:2vw;
+  left:10%;
 }

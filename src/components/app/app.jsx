@@ -14,7 +14,6 @@ import Form from "../form/form"
 import About from "../aboutUs/about"
 import News from "../news/news"
 import Gallery from "../gallery/gallery"
-import Music from "../Music/music"
 import ReactAudioPlayer from "react-audio-player";
 
 const NotFound = () => <div>Strony nie ma</div>;
