@@ -16,7 +16,8 @@ class News extends React.Component{
                             TERRORMACHINE
                         </div>
                     </b>
-
+                </div>
+                <div className={styles.Iam}>
                     <p>Wojna z</p>
                     <b>
                         <div className={styles.enemy}>

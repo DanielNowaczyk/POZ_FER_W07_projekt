@@ -18,7 +18,7 @@ import ReactAudioPlayer from "react-audio-player";
 const NotFound = () => <div>Strony nie ma</div>;
 
 const Main = () => <div>
-    <div className={styles.nav_title}>Puniccy Piraci</div>
+    <div className={styles.box}><div className={styles.nav_title}>Puniccy Piraci</div></div>
     <div className={styles.nav_motto}>Życie pod czarną banderą wiąże się licznymi trudami, ciężką pracą i znojem,
         ale oferowuje wolność, jakiej próżno by szukać gdziekolwiek indziej w ówczesnym świecie.</div>
 </div>;

@@ -73,7 +73,7 @@ html{
   font-size: 10rem;
   position:fixed;
   top:200px;
-  left:30%;
+
 }
 .nav_motto{
 
@@ -85,4 +85,12 @@ html{
   position: absolute;
   bottom: 10px;
   left:10%;
+}
+
+.box{
+  width: 100vw;
+  height:99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

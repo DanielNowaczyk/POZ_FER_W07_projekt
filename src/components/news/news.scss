@@ -2,14 +2,16 @@
 
 .box{
   width: 100vw;
-  height: 100vh;
+  height: 99vh;
   display: flex;
+  justify-content: space-around;
+  //align-items: center;
 
 
 }
 
 .Iam {
-  padding: 2em 5em;
+  padding: 2em 0 2em 15vw;;
   font: normal 40px/50px Montserrat, sans-serif;
   color: #999;
 
@@ -42,7 +44,7 @@
   -moz-animation:move 5s;
   -ms-animation:move 5s;
   -o-animation:move 5s;
-  animation:move 7s;
+  animation:move 10s;
   /*animation-iteration-count*/
   -webkit-animation-iteration-count:infinite;
   -moz-animation-iteration-count:infinite;
@@ -50,11 +52,11 @@
   -o-animation-iteration-count:infinite;
   animation-iteration-count:infinite;
   /*animation-delay*/
-  -webkit-animation-delay:1s;
-  -moz-animation-delay:1s;
-  -ms-animation-delay:1s;
-  -o-animation-delay:1s;
-  animation-delay:1s;
+  -webkit-animation-delay:2s;
+  -moz-animation-delay:2s;
+  -ms-animation-delay:2s;
+  -o-animation-delay:2s;
+  animation-delay:2s;
 }
 .Iam .enemy  {
   display: inline-block;
@@ -70,7 +72,7 @@
   -moz-animation:move 5s;
   -ms-animation:move 5s;
   -o-animation:move 5s;
-  animation:move 7s;
+  animation:move 10s;
   /*animation-iteration-count*/
   -webkit-animation-iteration-count:infinite;
   -moz-animation-iteration-count:infinite;
@@ -78,11 +80,11 @@
   -o-animation-iteration-count:infinite;
   animation-iteration-count:infinite;
   /*animation-delay*/
-  -webkit-animation-delay:1s;
-  -moz-animation-delay:1s;
-  -ms-animation-delay:1s;
-  -o-animation-delay:1s;
-  animation-delay:1s;
+  -webkit-animation-delay:2s;
+  -moz-animation-delay:2s;
+  -ms-animation-delay:2s;
+  -o-animation-delay:2s;
+  animation-delay:2s;
 }
 
 @keyframes move{
