@@ -15,7 +15,7 @@ class Navigation extends React.Component{
             <li><NavLink to={"/news"}>Dyplomacja</NavLink></li>
             <li><NavLink to={ "/members" }>Członkowie</NavLink></li>
                 <NavLink to={ "/" }><img className={styles.logo} src={logo}/></NavLink>
-            <li><a href="http://pl21.grepolismaps.org/bacaaf98908512e94a45c5e418e60474" target="_blank">Mapa</a></li>
+            <li><NavLink to={"/maps"}>Mapy</NavLink></li>
             <li><NavLink to={ "/form" }>Rekrutacja</NavLink></li>
             <li><NavLink to={"/gallery"}>Galeria</NavLink></li>
         </ul>
