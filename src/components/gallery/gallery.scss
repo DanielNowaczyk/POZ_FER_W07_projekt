@@ -12,3 +12,10 @@
   left: 0;
 
 }
+@media screen and (max-width: 768px){
+  .main{
+    min-width:600px;
+    min-height: 600px;
+  }
+
+}
