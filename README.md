@@ -1,1 +1,1 @@
-live demo:  https://danielnowaczyk.github.io/POZ_FER_W07_projekt/
+live demo:  https://danielnowaczyk.github.io/Puniccy_Piraci/
