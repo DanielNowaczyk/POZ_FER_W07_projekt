@@ -27,7 +27,14 @@ class Gallery extends React.Component {
             {
                 original: 'https://www.grcrt.net/_rep_img_/a8/a817ef6bf60c242684d67c5ab29568ab.png',
                 thumbnail: 'https://www.grcrt.net/_rep_img_/a8/a817ef6bf60c242684d67c5ab29568ab.png'
+            },
+            {
+                original: 'https://www.grcrt.net/_rep_img_/cd/cdb0d33c922bef265b642be0952548d7.png',
+                thumbnail: 'https://www.grcrt.net/_rep_img_/cd/cdb0d33c922bef265b642be0952548d7.png'
             }
+
+
+            
 
         ];
 
