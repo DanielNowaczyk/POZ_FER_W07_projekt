@@ -10,7 +10,7 @@ class Maps extends React.Component{
                 <div className={styles.main}>
                     <div className={styles.map}>
                         <span className={styles.mapTitle}>TOP 5</span>
-                        <a href="http://pl21.grepolismaps.org/e3ed38ad99206f0b9957f98bb2dca4c7" target="blank">
+                        <a href="http://pl21.grepolismaps.org/c08536024d87b049301e785613eb6c73" target="blank">
                             <button type="button">Zobacz</button>
                         </a>
                         <img src={top5} alt="top5"/>
@@ -31,5 +31,7 @@ class Maps extends React.Component{
     }
 }
 export default Maps
+
+
 
 
