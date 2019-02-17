@@ -2,8 +2,9 @@ import React from "react";
 import styles from "./members.scss";
 import playersSrc from "../../players.txt";
 
-// const playersSrc = "/api/players.txt";
-
+/* do pobierania danych z API
+ const playersSrc = "./api/players.txt";
+*/
  class Members extends React.Component{
      constructor(...args) {
          super(...args);
